@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body {
+            margin: auto;
+            background-color: #E9B872;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header,
+        nav,
+        article,
+        footer {
+            background-color: #90A959;
+            border: 5px solid #151515;
+            margin: 5px;
+            padding: 5px;
+            text-align: justify;
+        }
+
+        nav {
+            position: sticky;
+            top: 0px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-evenly;
+            margin-left: 0px;
+            padding: 0px;
+        }
+
+        nav ul li {
+            list-style-type: none;
+        }
+
+        @media only screen and (min-width: 600px) {
+            body {
+                width: 80%
+            }
+
+            #content {
+                display: flex;
+            }
+
+            nav {
+                position: static;
+            }
+
+            nav ul {
+                display: block;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Peepee Poopoo</h1>
+    </header>
+    <div id="content">
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div id="blogs">
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius leo id sem dignissim ornare.
+                    Aliquam
+                    laoreet nunc neque, quis interdum libero tempus sit amet. Integer bibendum nulla sit amet placerat
+                    sollicitudin. Curabitur quis pharetra tellus, et suscipit mi. Sed gravida viverra arcu eu interdum.
+                    Duis at
+                    euismod odio. Duis volutpat mollis orci eu molestie. Maecenas vestibulum ipsum vestibulum vulputate
+                    dapibus.
+                    In tempor bibendum mi, quis vestibulum lorem rhoncus a. Aenean maximus quis dolor eget tristique.
+                    Maecenas
+                    scelerisque arcu quis feugiat faucibus. Vestibulum eu dictum orci. Cras lacinia at sapien eget
+                    eleifend.
+                    Nullam suscipit venenatis tortor, vel laoreet eros.</p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius leo id sem dignissim ornare.
+                    Aliquam
+                    laoreet nunc neque, quis interdum libero tempus sit amet. Integer bibendum nulla sit amet placerat
+                    sollicitudin. Curabitur quis pharetra tellus, et suscipit mi. Sed gravida viverra arcu eu interdum.
+                    Duis at
+                    euismod odio. Duis volutpat mollis orci eu molestie. Maecenas vestibulum ipsum vestibulum vulputate
+                    dapibus.
+                    In tempor bibendum mi, quis vestibulum lorem rhoncus a. Aenean maximus quis dolor eget tristique.
+                    Maecenas
+                    scelerisque arcu quis feugiat faucibus. Vestibulum eu dictum orci. Cras lacinia at sapien eget
+                    eleifend.
+                    Nullam suscipit venenatis tortor, vel laoreet eros.</p>
+            </article>
+            <article>
+                <h2>Blog post</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius leo id sem dignissim ornare.
+                    Aliquam
+                    laoreet nunc neque, quis interdum libero tempus sit amet. Integer bibendum nulla sit amet placerat
+                    sollicitudin. Curabitur quis pharetra tellus, et suscipit mi. Sed gravida viverra arcu eu interdum.
+                    Duis at
+                    euismod odio. Duis volutpat mollis orci eu molestie. Maecenas vestibulum ipsum vestibulum vulputate
+                    dapibus.
+                    In tempor bibendum mi, quis vestibulum lorem rhoncus a. Aenean maximus quis dolor eget tristique.
+                    Maecenas
+                    scelerisque arcu quis feugiat faucibus. Vestibulum eu dictum orci. Cras lacinia at sapien eget
+                    eleifend.
+                    Nullam suscipit venenatis tortor, vel laoreet eros.</p>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <p>Made by Wesley S, 2025</p>
+    </footer>
+</body>
+
+</html>
